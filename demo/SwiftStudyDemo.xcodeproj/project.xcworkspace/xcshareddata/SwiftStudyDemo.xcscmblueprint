@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "02505962FD5ECAFA36E809BDBED663264917968F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DCD7028A0ED290AC84FD240124DBD72199884D53" : 9223372036854775807,
+    "02505962FD5ECAFA36E809BDBED663264917968F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "15F0C0DD-6CA8-49AD-8E85-A0E399188583",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DCD7028A0ED290AC84FD240124DBD72199884D53" : "",
+    "02505962FD5ECAFA36E809BDBED663264917968F" : "Swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftStudyDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftStudyDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/hufei123\/welcome-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "02505962FD5ECAFA36E809BDBED663264917968F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/hufei123\/SwiftStudy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DCD7028A0ED290AC84FD240124DBD72199884D53"
+    }
+  ]
+}
