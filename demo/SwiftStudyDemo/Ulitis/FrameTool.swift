@@ -27,7 +27,7 @@ extension UIView{
         }
         
         get{
-            return self.bounds.size.height;
+            return self.frame.origin.y;
         }
     }
     

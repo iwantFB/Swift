@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3EEC991F46E62200635A3A /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EEC981F46E62200635A3A /* PositionViewController.swift */; };
+		7A3EEC9B1F46E67100635A3A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EEC9A1F46E67100635A3A /* BaseViewController.swift */; };
+		7A3EEC9D1F46EB6100635A3A /* FHKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3EEC9C1F46EB6100635A3A /* FHKit.swift */; };
 		7AA64B161F468B08003AC8C6 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA64B151F468B08003AC8C6 /* TimerViewController.swift */; };
 		7ACE71F61F441D7600242454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE71F51F441D7600242454 /* AppDelegate.swift */; };
 		7ACE71F81F441D7600242454 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACE71F71F441D7600242454 /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A3EEC981F46E62200635A3A /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		7A3EEC9A1F46E67100635A3A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7A3EEC9C1F46EB6100635A3A /* FHKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FHKit.swift; sourceTree = "<group>"; };
 		7AA64B151F468B08003AC8C6 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		7ACE71F21F441D7600242454 /* SwiftStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACE71F51F441D7600242454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A3EEC971F46E5DE00635A3A /* 定位和反编码 */ = {
+			isa = PBXGroup;
+			children = (
+				7A3EEC981F46E62200635A3A /* PositionViewController.swift */,
+			);
+			name = "定位和反编码";
+			sourceTree = "<group>";
+		};
 		7AA64B141F468AED003AC8C6 /* 时钟 */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +84,7 @@
 		7ACE71F41F441D7600242454 /* SwiftStudyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7A3EEC971F46E5DE00635A3A /* 定位和反编码 */,
 				7AA64B141F468AED003AC8C6 /* 时钟 */,
 				7ACE72071F441E9800242454 /* Ulitis */,
 				7ACE71F51F441D7600242454 /* AppDelegate.swift */,
@@ -88,6 +103,8 @@
 				7ACE72081F441F1500242454 /* Tool.swift */,
 				7ACE720A1F4422DF00242454 /* FontChangeVC.swift */,
 				7ACE720C1F44286E00242454 /* FrameTool.swift */,
+				7A3EEC9A1F46E67100635A3A /* BaseViewController.swift */,
+				7A3EEC9C1F46EB6100635A3A /* FHKit.swift */,
 			);
 			path = Ulitis;
 			sourceTree = "<group>";
@@ -164,10 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3EEC9D1F46EB6100635A3A /* FHKit.swift in Sources */,
 				7ACE72091F441F1500242454 /* Tool.swift in Sources */,
+				7A3EEC991F46E62200635A3A /* PositionViewController.swift in Sources */,
 				7ACE720D1F44286E00242454 /* FrameTool.swift in Sources */,
 				7ACE71F81F441D7600242454 /* ViewController.swift in Sources */,
 				7ACE71F61F441D7600242454 /* AppDelegate.swift in Sources */,
+				7A3EEC9B1F46E67100635A3A /* BaseViewController.swift in Sources */,
 				7AA64B161F468B08003AC8C6 /* TimerViewController.swift in Sources */,
 				7ACE720B1F4422DF00242454 /* FontChangeVC.swift in Sources */,
 			);

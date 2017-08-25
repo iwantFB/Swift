@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
-    let dataArr:NSArray = ["改变字体"];
-//    let vcArr:NSArray = [FontChangeVC,];
+    let dataArr:NSArray = ["改变字体","时钟","地理位置以及编码"];
+    let vcArr:NSArray = [FontChangeVC(),TimerViewController(),PositionViewController()];
     
     
     override func viewDidLoad() {
@@ -44,7 +44,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let VC:UIViewController = FontChangeVC.init();
+        let VC:UIViewController = vcArr[indexPath.row] as! UIViewController;
         self.navigationController?.pushViewController(VC, animated: true);
         
     }
