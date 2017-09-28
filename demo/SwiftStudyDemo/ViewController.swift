@@ -10,18 +10,21 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
-    let dataArr:NSArray = ["改变字体","时钟","地理位置以及编码"];
-    let vcArr:NSArray = [FontChangeVC(),TimerViewController(),PositionViewController()];
+    let dataArr:NSArray = ["改变字体","时钟","地理位置以及编码","输入自动换行","渐变色"];
+    let vcArr:NSArray = [FontChangeVC(),TimerViewController(),PositionViewController(),LimitInputViewController(),GradientColor()];
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         _initUI();
+        
     }
 
     //初始化视图
     func _initUI() {
+        
+        self.title = "功能";
         
         let tableView = UITableView.init(frame: CGRect.init(x: 0, y: 0, width: Tool.Screen_width(), height: Tool.Screen_height()-64), style: UITableViewStyle.plain);
         tableView.delegate = self;
