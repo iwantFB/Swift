@@ -13,6 +13,7 @@ class Tool: NSObject {
     
     //屏幕宽度
     static func Screen_width()->CGFloat{
+        print("cool");
         return UIScreen.main.bounds.width;
     }
     
